@@ -1,6 +1,6 @@
 # Práctica de Peluquería
 
-Programa hecho en colaboración de alumnos de la Universidad Politécnica de Madrid para la asignatura de Diseño de Interfaces Gráficas. El objetivo de este proyecto es realizar una web responsive y accesible. Para visitarla https://carlosvilam.github.io/PracticaPeluqueria/. 
+Programa hecho en colaboración de alumnos de la Universidad Politécnica de Madrid para la asignatura de Diseño de Interfaces Gráficas. El objetivo de este proyecto es realizar una web responsive y accesible. Para visitarla https://carlosvilam.github.io/Peluqueria-en-JavaScript/
 
 ## Requisitos
 
