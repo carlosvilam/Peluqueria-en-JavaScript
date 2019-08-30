@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<!--Aqui van los enlaces, metadatos y el titulo de la pagina-->
+<head>
+    <!--metadatos y titulo-->
+    <meta charset="utf-8">
+    <title>Peluqueria</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--enlaces de bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!--enlaces de fontawesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <!--enlace al css y tipografias-->
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+
+    <!--enlaces de mmenu-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../jquery.mmenu.js"></script>
+    <link href="../jquery.mmenu.css" rel="stylesheet">
+    <style type="text/css">
+      .mm-menu {
+             --mm-color-background:black;
+             --mm-color-border:white;
+             --mm-color-text:white;
+             --mm-color-button:white;
+          --mm-line-height:0px;
+        }
+   </style>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+   <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+</head>
+<style>
+    body{
+      background-image: url("../Imagenes/madera.jpg");
+    }
+</style>
+<!--Aqui va el cuerpo de texto y la pagina en general-->
+<body onload="iniP()">
+  <div id="my-page">
+    <div id="my-header">
+    <nav class="navbar navbar-expand-lg sticky-top">
+
+        <a class="navbar-brand" href="../index.html">
+            <img class="logo" border="0" alt="Logo peluqueria" src="../Imagenes/logo.jpg">
+           </a>
+
+        <button id="my-button" class="navbar-toggler" type="button">
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav mr-auto mm-nolistview">
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PELUQUERIA</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="../Peluqueria/tint.html">Tinte</a>
+                          <a class="dropdown-item" href="../Peluqueria/perm.html">Permanente</a>
+                          <a class="dropdown-item" href="../Peluqueria/cort.html">Corte</a>
+                          <a class="dropdown-item" href="../Peluqueria/pein.html">Peinado</a>
+                        </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ESTÉTICA</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="../Estetica/dep.html">Depilación</a>
+                          <a class="dropdown-item" href="../Estetica/man.html">Manicura</a>
+                          <a class="dropdown-item" href="../Estetica/Limp.html">Limpieza</a>
+                        </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../Tienda/tienda.html">TIENDA <i class="fas fa-store-alt"></i></a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="../Miperfil/perf.html" id="miperfil">MI PERFIL   <i class="fas fa-user">  </i>  </a>
+                </li>
+                 <li class="nav-item">
+                    <a class="nav-link" href="../Carrito/Carrito.html" id="carro">CARRITO   <i class="fas fa-shopping-cart"></i>
+  </a>
+                </li>
+            </ul>
+
+        </div>
+
+    </nav>
+  </div>
+
+
+  <div id="my-menu">
+      <ul id="my-ul">
+        <li><a>PELUQUERIA</a><ul>
+          <li><a href="../Peluqueria/tint.html">Tinte</a></li>
+          <li><a href="../Peluqueria/perm.html">Permanente</a></li>
+          <li><a href="../Peluqueria/cort.html">Corte</a></li>
+          <li><a href="../Peluqueria/pein.html">Peinado</a></li>
+
+        </ul></li>
+
+        <li><a>ESTÉTICA</a><ul>
+          <li><a href="../Estetica/dep.html">Depilación</a></li>
+          <li><a href="../Estetica/man.html">Manicura</a></li>
+          <li><a href="../Estetica/Limp.html">Limpieza</a></li>
+
+        </ul></li>
+
+        <li><a href="../Tienda/tienda.html">TIENDA</a></li>
+        <li><a href="#" id="perfilm">MI PERFIL</a></li>
+      </ul>
+  </div>
+
+  <script>
+     $(document).ready(function() {
+        $("#my-menu").mmenu({
+        });
+        var API = $("#my-menu").data( "mmenu" );
+        $("#my-button").click(function() {
+           API.open();
+        });
+     });
+  </script>
+
+
+
+
+<!--login/register-->
+<div class="container mb-5 mt-5 bg-light p-5 border-0" style="box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);">
+
+       <!--<h1 class="text-center" style="margin-top:3%; margin-bottom:3%;">¡Pide una cita con nosotros!</h1>-->
+       <img src="../Imagenes/logo.jpg" class="d-block mx-auto">
+   <form>
+
+   <form class="cita-form" id="miForm">
+
+        <h3 class="text-center m-4 mb-5"><img src="../Imagenes/barberiaicono.svg" height="50px" width="50px">Servicios de peluqueria <img src="../Imagenes/barberiaicono.svg" height="50px" width="50px"></h3>
+   <div class="row m-2">
+          <div class="col">
+              <h5>Tintes</h5>
+          </div>
+           <div class="col">
+             <select name="tinte" class="custom-control" id="formtinte">
+              <option selected value="ninguno">Ninguno</option>
+              <option value="Tinte vegetal">Tinte Vegetal</option>
+              <option value="Tinte permanente">Tinte Permanente</option>
+              <option value="Mechas">Mechas</option>
+            </select>
+        </div>
+        <div class="col m-2" id ="preciot" >0€</div>
+   </div>
+
+    <hr>
+
+    <div class="row m-2">
+          <div class="col">
+              <h5>Rizado</h5>
+          </div>
+           <div class="col">
+             <select name="rizado" class="custom-control" id="formrizos">
+              <option value="ninguno" selected >Ninguno</option>
+              <option value="Permanente">Permanente</option>
+              <option value="Moldeador">Moldeador</option>
+            </select>
+        </div>
+        <div class="col m-2" id ="precior" >0€</div>
+   </div>
+
+    <hr>
+
+    <div class="row m-2">
+          <div class="col">
+              <h5>Cortes</h5>
+          </div>
+           <div class="col">
+             <select name="corte" class="custom-control" id="formcorte">
+              <option selected value="ninguno">Ninguno</option>
+              <option value="Corte con navaja">Corte navaja</option>
+              <option value ="Corte con tijera">Corte tijera</option>
+              <option value="Corte con maquinilla">Corte maquinilla</option>
+            </select>
+        </div>
+        <div class="col m-2" id ="precioc" >0€</div>
+   </div>
+
+    <hr>
+
+    <div class="row m-2">
+          <div class="col">
+              <h5>Peinado</h5>
+          </div>
+           <div class="col">
+             <select name="peinado" class="custom-control" id="formpeinado">
+              <option selected value="ninguno">Ninguno</option>
+              <option value="Peinado con secador y cepillo">Peinado con secador y cepillo</option>
+              <option value="Peinado con secador y plancha">Peinado con secador y plancha</option>
+              <option value="Peinado con productos">Peinado con productos</option>
+            </select>
+        </div>
+        <div class="col m-2" id ="preciop" >0€</div>
+   </div>
+
+    <hr>
+    <h3 class="text-center m-4 mb-5"><img src="../Imagenes/iconoestetica.svg" height="50px" width="50px"> Servicios de estética<img src="../Imagenes/iconoestetica.svg" height="50px" width="50px"></h3>
+    <div class="row m-2">
+          <div class="col">
+              <h5>Depilación</h5>
+          </div>
+           <div class="col">
+             <select class="custom-control" id="formdep">
+              <option selected value="ninguno">Ninguno</option>
+              <option value="Depilacion de axilas">Depilación de axilas</option>
+              <option value="Depilacion de piernas">Depilación de piernas</option>
+              <option value="Depilacion de ingles">Depilación de ingles</option>
+            </select>
+        </div>
+        <div class="col m-2" id ="preciod" >0€</div>
+   </div>
+
+    <hr>
+
+    <div class="row m-2">
+          <div class="col">
+              <h5>Manicura</h5>
+          </div>
+           <div class="col">
+             <select class="custom-control" id="formman">
+              <option selected value="ninguno">Ninguno</option>
+              <option value="Manicura">Manos</option>
+              <option value="Pedicura">Pies</option>
+              <option value="Manicura y pedicura">Manos y pies</option>
+            </select>
+        </div>
+        <div class="col m-2" id ="preciom" >0€</div>
+   </div>
+
+    <hr>
+
+    <div class="row m-2">
+          <div class="col">
+              <h5>Limpieza</h5>
+          </div>
+           <div class="col">
+             <select class="custom-control" id="formlimp">
+              <option selected value="ninguno">Ninguno</option>
+              <option value="Limpieza facial">Limpieza facial</option>
+              <option value="Radiofrecuencia">Radiofrecuencia</option>
+              <option value="Ionizacion">Ionización</option>
+              <option value="Peeling">Peeling</option>
+            </select>
+        </div>
+        <div class="col m-2" id ="preciol" >0€</div>
+   </div>
+
+    <hr>
+       <h2 class="text-center m-4 mb-5">Fecha de la cita</h2>
+       <div class="container">
+
+          <h5 class="m-3">Introduzca una fecha:</h5>
+          <input type="text" class="text m-3" id="flat" onchange="horas()"></input>
+
+          <div id="horas">
+          </div>
+
+        <script>
+
+          function horas(){
+
+              $("#horas").empty();
+
+            var dia = $("#flat").val();
+            var parts = dia.split("-");
+            var dt =  parseInt(parts[0], 10);
+
+            var once = " <option value='11'>11:00</option>";
+            var doce  = " <option value='12'>12:00</option>";
+            var cuatro  = " <option value='16'>16:00</option>";
+            var seis  = " <option value='18'>18:00</option>";
+            var ocho  = " <option value='20'>20:00</option>";
+            var nueve  =" <option value='9'>9:00</option>";
+
+            if(dt == 6){
+
+              once = "<option value='11' disabled>11:00</option>";
+              doce ="<option value='12' disabled>12:00</option>";
+              ocho = "<option value='20' disabled>20:00</option>";
+              nueve = "<option value='9' disabled>9:00</option>";
+
+            }
+            if(dt == 4){
+              once = "<option value='11' disabled>11:00</option>";
+              doce = "<option value='12' disabled>12:00</option>";
+              seis = "<option value='18' disabled>18:00</option>";
+
+            }
+            if(dt == 5){
+
+              cuatro = "<option value='16' disabled>16:00</option>";
+
+            }
+            if(dt == 7){
+              cuatro = "<option value='16' disabled>16:00</option>";
+              nueve = "<option value='9' disabled>9:00</option>";
+
+            }
+            if(dt == 3){
+              once = "<option value='11' disabled>11:00</option>";
+              doce = "<option value='12' disabled>12:00</option>";
+              ocho = "<option value='20' disabled>20:00</option>";
+            }
+
+
+              $("#horas").append(`<h5 class="m-3">Introduzca una hora:</h5>
+              <select name="hora" id="hora" class="custom-control m-3">
+                  `+nueve+`
+                  <option value="10">10:00</option>
+                  `+once+`
+                  `+doce+`
+                  <option value="13">13:00</option>
+                  <option value="14">14:00</option>
+                  `+cuatro+`
+                  <option value="17">17:00</option>
+                  `+seis+`
+                  <option value="19">19:00</option>
+                  `+ocho+`
+              </select>
+`)
+
+
+          }
+
+        </script>
+
+        <script>
+            $("#flat").flatpickr({
+                minDate: "today",
+                maxDate: new Date().fp_incr(14),
+                dateFormat: "d-m-y"// 14 days from now
+            });
+        </script>
+
+       </div>
+
+
+    </form>
+
+
+    <div class="row m-2">
+          <div class="col">
+              <button class="btn" onclick="alerta()">Confirmar cita</button>
+              <script>
+              function alerta(){
+                if(comprobar()){
+              if(comprobarNinguno()){
+                  location.href = "cita2.html";}
+
+
+              else{
+                alert("Hay que elegir al menos un servicio");
+              }
+              }
+            }
+
+              function comprobar(){
+                var condicion = true;
+                  $( "input" ).each(function( index ) {
+                    if(condicion){
+                      if($( this ).val().length == 0){
+                          alert("Hay un error en los campos introducidos, cambia y prueba otra vez");
+                          condicion = false;
+                      }
+                    }
+                });
+                return condicion;
+              }
+
+              function comprobarNinguno(){
+
+                var condicion = false;
+
+                if($("#formtinte option:selected").val() != "ninguno"){
+                  condicion = true;
+                }
+                if($("#formrizos option:selected").val() != "ninguno"){
+                  condicion = true;
+                }
+                if($("#formdep option:selected").val() != "ninguno"){
+                  condicion = true;
+                }
+                if($("#formman option:selected").val() != "ninguno"){
+                  condicion = true;
+                }
+                if($("#formcorte option:selected").val() != "ninguno"){
+                  condicion = true;
+                }
+                if($("#formlimp option:selected").val() != "ninguno"){
+                  condicion = true;
+                }
+                if($("#formpeinado option:selected").val() != "ninguno"){
+                  condicion = true;
+                }
+                $("select")
+                return condicion;
+              }
+              </script>
+          </div>
+   </div>
+
+    </form>
+
+</div>
+
+<script>
+     $("#formtinte").change(function(){
+         console.log("cambio1");
+        if($("#formtinte").val()=='Tinte vegetal'){
+                $("#preciot").text("12€");
+        }
+        if($("#formtinte").val()=='Tinte permanente'){
+                $("#preciot").text("15€");
+        }
+        if($("#formtinte").val()=='Mechas'){
+                $("#preciot").text("20€");
+        }
+        if($("#formtinte").val()=='ninguno'){
+                $("#preciot").text("0€");
+        }
+        if($("#formtinte").val()!='ninguno'){
+            add(0,$("#formtinte").val());
+        }
+    })
+     $("#hora").change(function(){
+         var fecha = JSON.parse(window.sessionStorage.getItem('fecha'));
+         fecha[1] = $("#hora option:selected").text();
+         window.sessionStorage.setItem('fecha',JSON.stringify(fecha));
+     })
+      $("#flat").change(function(){
+         var fecha = JSON.parse(window.sessionStorage.getItem('fecha'));
+         fecha[0] = $('#flat').val();
+         window.sessionStorage.setItem('fecha',JSON.stringify(fecha));
+     })
+       $("#formrizos").change(function(){
+        if($("#formrizos").val()=='ninguno'){
+                $("#precior").text("0€");
+        }
+        if($("#formrizos").val()=='Permanente'){
+                $("#precior").text("15€");
+        }
+        if($("#formrizos").val()=='Moldeador'){
+                $("#precior").text("20€");
+        }
+        if($("#formrizos").val()!='ninguno'){
+            add(1,$("#formrizos").val());
+        }
+    })
+       $("#formcorte").change(function(){
+        if($("#formcorte").val()=='ninguno'){
+                $("#precioc").text("0€");
+        }
+        if($("#formcorte").val()=='Corte con navaja'){
+                $("#precioc").text("12€");
+        }
+        if($("#formcorte").val()=='Corte con maquinilla'){
+                $("#precioc").text("10€");
+        }
+        if($("#formcorte").val()=='Corte con tijera'){
+                $("#precioc").text("15€");
+        }
+        if($("#formcorte").val()!='ninguno'){
+            add(2,$("#formcorte").val());
+        }
+    })
+       $("#formpeinado").change(function(){
+        if($("#formpeinado").val()=='Peinado con secador y cepillo'){
+                $("#preciop").text("15€");
+        }
+        if($("#formpeinado").val()=='Peinado con secador y plancha'){
+                $("#preciop").text("20€");
+        }
+        if($("#formpeinado").val()=='Peinado con productos'){
+                $("#preciop").text("25€");
+        }
+        if($("#formpeinado").val()=='ninguno'){
+                $("#preciop").text("0€");
+        }
+        if($("#formpeinado").val()!='ninguno'){
+            add(3,$("#formpeinado").val());
+        }
+    })
+    ////ESTETICA
+       $("#formdep").change(function(){
+        if($("#formdep").val()=='Depilacion de axilas'){
+                $("#preciod").text("20€");
+        }
+        if($("#formdep").val()=='Depilacion de piernas'){
+                $("#preciod").text("20€");
+        }
+        if($("#formdep").val()=='Depilacion de ingles'){
+                $("#preciod").text("32€");
+        }
+        if($("#formdep").val()=='ninguno'){
+          $("#preciod").text("0€");
+        }
+        if($("#formdep").val()!='ninguno'){
+            add(4,$("#formdep").val());
+        }
+        })
+        $("#formman").change(function(){
+        if($("#formman").val()=='Manicura'){
+                $("#preciom").text("10€");
+        }
+        if($("#formman").val()=='Pedicura'){
+                $("#preciom").text("12€");
+        }
+        if($("#formman").val()=='Manicura y pedicura'){
+                $("#preciom").text("20€");
+        }
+        if($("#formman").val()=='ninguno'){
+                $("#preciom").text("0€");
+        }
+        if($("#formman").val()!='ninguno'){
+            add(5,$("#formman").val());
+        }
+         })
+        $("#formlimp").change(function(){
+        if($("#formlimp").val()=='Limpieza facial'){
+                $("#preciol").text("15€");
+        }
+        if($("#formlimp").val()=='Ionizacion'){
+                $("#preciol").text("35€");
+        }
+        if($("#formlimp").val()=='Radiofrecuencia'){
+                $("#preciol").text("40€");
+        }
+        if($("#formlimp").val()=='ninguno'){
+                $("#preciol").text("0€");
+        }
+        if($("#formlimp").val()=='Peeling'){
+          $("#preciol").text("25€");
+        }
+        if($("#formlimp").val()!='ninguno'){
+            add(6,$("#formlimp").val());
+        }
+    })
+     function iniP(){
+         // array posiciones
+         //tinte 0
+         //corte 1
+         //rizado 2
+         //peinado 3
+         //depilacion 4
+         //limpieza 5
+         //manicura 6
+         //fecha
+         //dia 0
+         //hora 1
+
+         console.log(window.sessionStorage.getItem('log'));
+         if (window.sessionStorage.getItem('log') == null) {
+           window.sessionStorage.setItem('log', 'false'); //si no esta la variable log la pone a false
+         }
+         if (window.sessionStorage.getItem('log') == 'false' || window.sessionStorage.getItem('log') == null) {
+           $("#miperfil").attr("href", "../Miperfil/log.html");
+           $("#perfilm").attr("href", "../Miperfil/log.html"); //si no estas logueado vas a la pantalla de log
+         } else {
+           $("#miperfil").attr("href", "../Miperfil/perf.html");
+           $("#perfilm").attr("href", "../Miperfil/perf.html");
+           $("#log").append("<div style='color:white;background-color:black;display:block; text-align:center'>Hola " + sessionStorage.getItem('nombre') + "!</div>"); // si estas logueado vas a tu perfil y aparece un mensaje negro saludandote
+         }
+           if(window.sessionStorage.getItem('carro')!=null){
+         var carro1 = JSON.parse(window.sessionStorage.getItem('carro'));
+         $("#carro").text('CARRITO ' + carro1.length + " "); //#("carro") busca elementos con id carro asi que la parte del nav de carrito tiene que tener ese id
+         $("#carro").append('<i class="fas fa-shopping-cart"></i>'); //pone el numero de elementos en el carro y añade el icono
+           }
+         var servicio = ['-1','-1','-1','-1','-1','-1','-1'];
+         var fecha = ['-1','9:00'];
+         window.sessionStorage.setItem('servicios',JSON.stringify(servicio));
+         window.sessionStorage.setItem('fecha',JSON.stringify(fecha));
+    }
+     function add(tipo,objeto){
+             var servicio = JSON.parse(window.sessionStorage.getItem('servicios'));
+             servicio[tipo] = objeto ;
+             window.sessionStorage.setItem('servicios',JSON.stringify(servicio));
+    }
+</script>
+<!--finlr-->
+
+<!--seccion: donde encontrarnos-->
+     <div class="container-fluid">
+        <div class ="row">
+        <div class="col">
+                <h5 class="card-title">¿Dónde encontrarnos?     <i class="fas fa-map-marked-alt"></i></h5>
+                <p class="card-text">Calle Jesús del Gran Poder, 16, 28909 Getafe, Madrid</p>
+        </div>
+
+         <div class="col">
+                <h5 class="card-title">Contáctanos     <i class="fas fa-phone"></i></h5>
+                <p class="card-text">Tfno: 666666666</p>
+                <p class="card-text">email: peluqueria@peluqueria.es</p>
+
+      </div>
+             <div class="col">
+                <h5 class="card-title">Horario    <i class="far fa-calendar-alt"></i></h5>
+                <p class="card-text">De lunes a viernes: de 9:00 a 21:00</p>
+                <p class="card-text">Sábados 9:00 a 13:00</p>
+
+      </div>
+    </div>
+    </div>
+<!--fin de seccion: donde encontrarnos-->
+
+</div>
+</body>
+
+</html>

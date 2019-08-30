@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<!--Aqui van los enlaces, metadatos y el titulo de la pagina-->
+<head>
+    <!--metadatos y titulo-->
+    <meta charset="utf-8">
+    <title>Peluqueria Admin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--enlaces de bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!--enlaces de fontawesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <!--enlace al css y tipografias-->
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+
+
+    <!--enlaces de mmenu-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../jquery.mmenu.js"></script>
+    <link href="../jquery.mmenu.css" rel="stylesheet">
+    <style type="text/css">
+      .mm-menu {
+             --mm-color-background:black;
+             --mm-color-border:white;
+             --mm-color-text:white;
+             --mm-color-button:white;
+          --mm-line-height:0px;
+        }
+   </style>
+
+</head>
+
+<!--Aqui va el cuerpo de texto y la pagina en general-->
+<body onload="cargaP()">
+  <div id="my-page">
+    <div id="my-header">
+    <nav class="navbar navbar-expand-lg sticky-top">
+
+      <a class="navbar-brand" href="empleados.html" style="font-family: 'Fjalla One'; color:black;">
+       <img class="logo" border="0" alt="Logo peluqueria" src="../Imagenes/logo.jpg">
+       Admin
+      </a>
+
+        <button id="my-button" class="navbar-toggler" type="button">
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav mr-auto mm-nolistview">
+              <li class="nav-item">
+                  <a class="nav-link" href="empleados.html">EMPLEADOS <i class="fas fa-address-book"></i></a>
+              </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PRODUCTOS</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="stock.html">Stock</a>
+                          <a class="dropdown-item" href="productos.html">Productos</a>
+                        </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CLIENTES</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="clientes.html">Listado</a>
+                          <a class="dropdown-item" href="promociones.html">Promociones</a>
+                        </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="citas.html">CITAS <i class="far fa-calendar-alt"></i></a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">VOLVER   <i class="fas fa-undo-alt"></i> </a>
+                </li>
+            </ul>
+
+        </div>
+
+    </nav>
+  </div>
+
+  <div id="my-menu">
+      <ul id="my-ul">
+          <li><a href="empleados.html">EMPLEADOS</a></li>
+
+          <li><a>PRODUCTOS</a><ul>
+          <li><a href="productos.html">Productos</a></li>
+          <li><a href="stock.html">Stock</a></li>
+        </ul></li>
+
+        <li><a>CLIENTES</a><ul>
+          <li><a href="clientes.html">Listado</a></li>
+          <li><a href="promociones.html">Promociones</a></li>
+
+        </ul></li>
+
+        <li><a href="citas.html">CITAS</a></li>
+        <li><a href="../index.html" id="perfilm">VOLVER</a></li>
+      </ul>
+  </div>
+
+
+  <script>
+     $(document).ready(function() {
+        $("#my-menu").mmenu({
+
+        });
+        var API = $("#my-menu").data( "mmenu" );
+
+        $("#my-button").click(function() {
+           API.open();
+        });
+     });
+
+
+
+
+
+  </script>
+
+  <script>
+  function comprobar(){
+    var condicion = true;
+      $( "input" ).each(function( index ) {
+        if(condicion){
+          if($( this ).val().length == 0){
+              alert("Hay un error en los campos introducidos, cambia y prueba otra vez");
+              condicion = false;
+          }
+        }
+    });
+    return condicion;
+  }
+
+  function alerta(){
+      if(comprobar()){
+
+    if(confirm("¿Estás seguro de los cambios realizados?")){
+      location.href = "productos.html";
+    
+    }
+  }
+}
+
+  </script>
+<h1 class="text-center">Añadir nuevo producto</h1>
+
+<div class="container" style="padding-right:10%;padding-left:10%;margin-bottom:15%;">
+    <form>
+    <div class="form-group">
+      <label>Nombre del artículo</label>
+      <input type="text" class="form-control" >
+    </div>
+
+    <div class="form-group">
+      <label>Marca</label>
+      <input type="text" class="form-control" >
+    </div>
+
+    <div class="form-group">
+      <label>Precio</label>
+      <input type="number" class="form-control" >
+    </div>
+
+    <div class="form-group">
+      <label>Tipo</label>
+      <input type="text" class="form-control" >
+    </div>
+  </form>
+  <button class="btn" onclick="alerta()"> Añadir</button>
+</div>
+
+<!--seccion: donde encontrarnos-->
+     <div class="container-fluid">
+        <div class ="row">
+        <div class="col">
+                <h5 class="card-title">¿Dónde encontrarnos?     <i class="fas fa-map-marked-alt"></i></h5>
+                <p class="card-text">Calle Jesús del Gran Poder, 16, 28909 Getafe, Madrid</p>
+        </div>
+
+         <div class="col">
+                <h5 class="card-title">Contáctanos     <i class="fas fa-phone"></i></h5>
+                <p class="card-text">Tfno: 666666666</p>
+                <p class="card-text">email: peluqueria@peluqueria.es</p>
+
+      </div>
+             <div class="col">
+                <h5 class="card-title">Horario    <i class="far fa-calendar-alt"></i></h5>
+                <p class="card-text">De lunes a viernes: de 9:00 a 21:00</p>
+                <p class="card-text">Sábados 9:00 a 13:00</p>
+
+              </div>
+      </div>
+    </div>
+<!--fin de seccion: donde encontrarnos-->
+
+</div>
+
+</body>
+
+</html>

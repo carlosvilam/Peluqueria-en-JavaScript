@@ -1,0 +1,229 @@
+{
+"Productos":[
+        {
+            "ID": 1,
+            "Nombre": "Secadora Marca Tropic",
+            "Tipo": "Secador",
+            "Precio": 20,
+            "Marca": "Tropic",
+            "Dirfoto": "../Imagenes/secador1.jpg",
+            "Unidades":525
+        },
+        {
+            "ID": 2,
+            "Nombre": "Secadora Marca Krhüner",
+            "Tipo": "Secador",
+            "Precio": 25,
+            "Marca": "Krhüner",
+            "Dirfoto": "../Imagenes/secador2.jpg",
+            "Unidades":425
+        },
+        {
+            "ID": 3,
+            "Nombre": "Champu Johnson",
+            "Tipo": "ChampuH",
+            "Precio": 12,
+            "Marca": "Johnson",
+            "Dirfoto": "../Imagenes/champuC.jpg",
+            "Unidades":285
+        },
+        {
+            "ID": 4,
+            "Nombre": "Champu D´Horse",
+            "Tipo": "ChampuH",
+            "Precio": 50,
+            "Marca": "D´Horse",
+            "Dirfoto": "../Imagenes/Champu1.jpg",
+            "Unidades":425
+        },
+        {
+            "ID": 5,
+            "Nombre": "Plancha Philips",
+            "Tipo": "Plancha",
+            "Precio": 55,
+            "Marca": "Philips",
+            "Dirfoto": "../Imagenes/plancha1.jpg",
+            "Unidades":256
+        },
+        {
+            "ID": 6,
+            "Nombre": "Champu Fructis",
+            "Tipo": "ChampuM",
+            "Precio": 33,
+            "Marca": "Fructis",
+            "Dirfoto": "../Imagenes/champum.jpg",
+            "Unidades":2455
+        },
+        {
+            "ID": 7,
+            "Nombre": "Crema Nivea para arrugas",
+            "Tipo": "Crema",
+            "Precio": 100,
+            "Marca": "Nivea",
+            "Dirfoto": "../Imagenes/crema.jpg",
+            "Unidades":2555
+        },
+        {
+            "ID": 8,
+            "Nombre": "Plancha de pinzas",
+            "Tipo": "Plancha",
+            "Precio": 300,
+            "Marca": "Remington",
+            "Dirfoto": "../Imagenes/plancha2.jpg",
+            "Unidades":2565
+        },
+        {
+            "ID": 9,
+            "Nombre": "Champu 3D Men",
+            "Tipo": "ChampuH",
+            "Precio": 300,
+            "Marca": "Schwarzkopf",
+            "Dirfoto": "../Imagenes/champuH3.jpg",
+            "Unidades":245
+        },
+        {
+            "ID": 10,
+            "Nombre": "Champu Just for Men",
+            "Tipo": "ChampuH",
+            "Precio": 200,
+            "Marca": "Schwarzkopf",
+            "Dirfoto": "../Imagenes/champuH4.jpg",
+            "Unidades":233
+        },
+        {
+            "ID": 11,
+            "Nombre": "Champu House 99",
+            "Tipo": "ChampuH",
+            "Precio": 400,
+            "Marca": "Schwarzkopf",
+            "Dirfoto": "../Imagenes/champuH5.jpg",
+            "Unidades":789
+        },
+        {
+            "ID": 12,
+            "Nombre": "Champu Women's Tonic",
+            "Tipo": "ChampuM",
+            "Precio": 40,
+            "Marca": "Deliplus",
+            "Dirfoto": "../Imagenes/champuM2.jpg",
+            "Unidades":74
+        },
+        {
+            "ID": 13,
+            "Nombre": "Champu Phyto",
+            "Tipo": "ChampuM",
+            "Precio": 80,
+            "Marca": "Phyto",
+            "Dirfoto": "../Imagenes/champuM3.jpg",
+            "Unidades":25
+        },
+        {
+            "ID": 14,
+            "Nombre": "Champu anticaida",
+            "Tipo": "ChampuM",
+            "Precio": 90,
+            "Marca": "H&S",
+            "Dirfoto": "../Imagenes/champuM4.jpg",
+            "Unidades":27
+        },
+        {
+            "ID": 15,
+            "Nombre": "Champu ICON",
+            "Tipo": "ChampuM",
+            "Precio": 900,
+            "Marca": "ICON",
+            "Dirfoto": "../Imagenes/champuM5.jpg",
+            "Unidades":2524
+        },
+        {
+            "ID": 16,
+            "Nombre": "Secador para viajes",
+            "Tipo": "Secador",
+            "Precio": 350,
+            "Marca": "Remington",
+            "Dirfoto": "../Imagenes/secador3.jpg",
+            "Unidades":251
+        },
+        {
+            "ID": 17,
+            "Nombre": "Secador futurista",
+            "Tipo": "Secador",
+            "Precio": 600,
+            "Marca": "Rowenta",
+            "Dirfoto": "../Imagenes/secador4.jpg",
+            "Unidades":252
+        },
+        {
+            "ID": 18,
+            "Nombre": "Secador Rowenta",
+            "Tipo": "Secador",
+            "Precio": 5,
+            "Marca": "Rowenta",
+            "Dirfoto": "../Imagenes/secador5.jpg",
+            "Unidades":254
+        },
+        {
+            "ID": 19,
+            "Nombre": "Plancha tipo pinza para viajes",
+            "Tipo": "Plancha",
+            "Precio": 90,
+            "Marca": "Rowenta",
+            "Dirfoto": "../Imagenes/plancha3.jpg",
+            "Unidades":251
+        },
+        {
+            "ID": 20,
+            "Nombre": "Plancha profesional",
+            "Tipo": "Plancha",
+            "Precio": 500,
+            "Marca": "Rowenta",
+            "Dirfoto": "../Imagenes/plancha4.jpg",
+            "Unidades":254
+        },
+        {
+            "ID": 21,
+            "Nombre": "Plancha peine",
+            "Tipo": "Plancha",
+            "Precio": 3,
+            "Marca": "Rowenta",
+            "Dirfoto": "../Imagenes/plancha5.jpg",
+            "Unidades":200
+        },
+        {
+            "ID": 22,
+            "Nombre": "Crema facial Pond's",
+            "Tipo": "Crema",
+            "Precio": 120,
+            "Marca": "Pond's",
+            "Dirfoto": "../Imagenes/crema2.jpg",
+            "Unidades":500
+        },
+        {
+            "ID": 23,
+            "Nombre": "Crema clasica Hinds",
+            "Tipo": "Crema",
+            "Precio": 20,
+            "Marca": "Hinds",
+            "Dirfoto": "../Imagenes/crema3.jpg",
+            "Unidades":98
+        },
+        {
+            "ID": 24,
+            "Nombre": "Crema corporal Dove",
+            "Tipo": "Crema",
+            "Precio": 25,
+            "Marca": "Dove",
+            "Dirfoto": "../Imagenes/crema4.jpg",
+            "Unidades":47
+        },
+        {
+            "ID": 25,
+            "Nombre": "Crema hidratante Neutrogena",
+            "Tipo": "Crema",
+            "Precio": 100,
+            "Marca": "Neutrogena",
+            "Dirfoto": "../Imagenes/crema5.jpg",
+            "Unidades":54
+        }
+    ]
+}

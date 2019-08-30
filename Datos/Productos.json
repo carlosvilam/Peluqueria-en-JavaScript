@@ -1,0 +1,68 @@
+{
+"Productos":[
+        {
+            "ID": 1,
+            "Nombre": "Secadora 1",
+            "Tipo": "Secador",
+            "Precio": 20,
+            "Marca": "marca1",
+            "Dirfoto": "../Imagenes/secador1.jpg"
+        },
+        {
+            "ID": 2,
+            "Nombre": "Secadora 2",
+            "Tipo": "Secador",
+            "Precio": 25,
+            "Marca": "marca2",
+            "Dirfoto": "../Imagenes/secador2.jpg"
+        },
+        {
+            "ID": 3,
+            "Nombre": "Champu para calvos",
+            "Tipo": "ChampuH",
+            "Precio": 12,
+            "Marca": "marca3",
+            "Dirfoto": "../Imagenes/champuC.jpg"
+        },
+        {
+            "ID": 4,
+            "Nombre": "Champu para perros calvos",
+            "Tipo": "ChampuH",
+            "Precio": 50,
+            "Marca": "marca3",
+            "Dirfoto": "../Imagenes/Champu1.jpg"
+        },
+    {
+            "ID": 1,
+            "Nombre": "Secadora 1",
+            "Tipo": "Secador",
+            "Precio": 20,
+            "Marca": "marca1",
+            "Dirfoto": "../Imagenes/secador1.jpg"
+        },
+        {
+            "ID": 2,
+            "Nombre": "Secadora 2",
+            "Tipo": "Secador",
+            "Precio": 25,
+            "Marca": "marca2",
+            "Dirfoto": "../Imagenes/secador2.jpg"
+        },
+        {
+            "ID": 3,
+            "Nombre": "Champu para calvos",
+            "Tipo": "ChampuH",
+            "Precio": 12,
+            "Marca": "marca3",
+            "Dirfoto": "../Imagenes/champuC.jpg"
+        },
+        {
+            "ID": 4,
+            "Nombre": "Champu para perros calvos",
+            "Tipo": "ChampuH",
+            "Precio": 50,
+            "Marca": "marca3",
+            "Dirfoto": "../Imagenes/Champu1.jpg"
+        }
+    ]
+}

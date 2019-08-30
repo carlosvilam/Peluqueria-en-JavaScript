@@ -1,0 +1,205 @@
+{
+"Productos":[
+        {
+            "ID": 1,
+            "Nombre": "Secadora 1",
+            "Tipo": "Secador",
+            "Precio": 20,
+            "Marca": "marca1",
+            "Dirfoto": "../Imagenes/secador1.jpg"
+        },
+        {
+            "ID": 2,
+            "Nombre": "Secadora 2",
+            "Tipo": "Secador",
+            "Precio": 25,
+            "Marca": "marca2",
+            "Dirfoto": "../Imagenes/secador2.jpg"
+        },
+        {
+            "ID": 3,
+            "Nombre": "Champu 2",
+            "Tipo": "ChampuH",
+            "Precio": 12,
+            "Marca": "marca3",
+            "Dirfoto": "../Imagenes/champuC.jpg"
+        },
+        {
+            "ID": 4,
+            "Nombre": "Champu 3",
+            "Tipo": "ChampuH",
+            "Precio": 50,
+            "Marca": "marca3",
+            "Dirfoto": "../Imagenes/Champu1.jpg"
+        },
+    {
+            "ID": 5,
+            "Nombre": "Plancha 1",
+            "Tipo": "Plancha",
+            "Precio": 55,
+            "Marca": "marca1",
+            "Dirfoto": "../Imagenes/plancha1.jpg"
+        },
+        {
+            "ID": 6,
+            "Nombre": "Champu para mujeres",
+            "Tipo": "ChampuM",
+            "Precio": 33,
+            "Marca": "marca2",
+            "Dirfoto": "../Imagenes/champum.jpg"
+        },
+        {
+            "ID": 7,
+            "Nombre": "Crema para arrugas",
+            "Tipo": "Crema",
+            "Precio": 100,
+            "Marca": "marca3",
+            "Dirfoto": "../Imagenes/crema.jpg"
+        },
+        {
+            "ID": 8,
+            "Nombre": "Plancha muy cara",
+            "Tipo": "Plancha",
+            "Precio": 300,
+            "Marca": "marca3",
+            "Dirfoto": "../Imagenes/plancha2.jpg"
+        },
+        {
+            "ID": 9,
+            "Nombre": "Champu hombre anticaspa",
+            "Tipo": "ChampuH",
+            "Precio": 300,
+            "Marca": "marca3",
+            "Dirfoto": "../Imagenes/champuH3.jpg"
+        },
+        {
+            "ID": 10,
+            "Nombre": "Champu hombre marca",
+            "Tipo": "ChampuH",
+            "Precio": 3000,
+            "Marca": "marca3",
+            "Dirfoto": "../Imagenes/champuH4.jpg"
+        },
+        {
+            "ID": 11,
+            "Nombre": "Champu famoso",
+            "Tipo": "ChampuH",
+            "Precio": 400,
+            "Marca": "marca3",
+            "Dirfoto": "../Imagenes/champuH5.jpg"
+        },
+        {
+            "ID": 12,
+            "Nombre": "Champu mujer anticaida",
+            "Tipo": "ChampuM",
+            "Precio": 40,
+            "Marca": "marca3",
+            "Dirfoto": "../Imagenes/champuM2.jpg"
+        },
+        {
+            "ID": 13,
+            "Nombre": "Champu mujer de farmacia",
+            "Tipo": "ChampuM",
+            "Precio": 80,
+            "Marca": "marca3",
+            "Dirfoto": "../Imagenes/champuM3.jpg"
+        },
+        {
+            "ID": 14,
+            "Nombre": "Champu mujer anticaspa",
+            "Tipo": "ChampuM",
+            "Precio": 90,
+            "Marca": "marca3",
+            "Dirfoto": "../Imagenes/champuM4.jpg"
+        },
+        {
+            "ID": 15,
+            "Nombre": "Champu mujer caro",
+            "Tipo": "ChampuM",
+            "Precio": 900,
+            "Marca": "marca3",
+            "Dirfoto": "../Imagenes/champuM5.jpg"
+        },
+        {
+            "ID": 16,
+            "Nombre": "Secador 3",
+            "Tipo": "Secador",
+            "Precio": 900,
+            "Marca": "marca3",
+            "Dirfoto": "../Imagenes/secador3.jpg"
+        },
+        {
+            "ID": 17,
+            "Nombre": "Secador 4",
+            "Tipo": "Secador",
+            "Precio": 9000,
+            "Marca": "marca3",
+            "Dirfoto": "../Imagenes/secador4.jpg"
+        },
+        {
+            "ID": 18,
+            "Nombre": "Secador 5",
+            "Tipo": "Secador",
+            "Precio": 5,
+            "Marca": "marca3",
+            "Dirfoto": "../Imagenes/secador5.jpg"
+        },
+        {
+            "ID": 19,
+            "Nombre": "Plancha de viaje",
+            "Tipo": "Plancha",
+            "Precio": 90,
+            "Marca": "marca3",
+            "Dirfoto": "../Imagenes/plancha3.jpg"
+        },
+        {
+            "ID": 20,
+            "Nombre": "Plancha profesional",
+            "Tipo": "Plancha",
+            "Precio": 500,
+            "Marca": "marca3",
+            "Dirfoto": "../Imagenes/plancha4.jpg"
+        },
+        {
+            "ID": 21,
+            "Nombre": "Plancha peine",
+            "Tipo": "Plancha",
+            "Precio": 3,
+            "Marca": "marca3",
+            "Dirfoto": "../Imagenes/plancha5.jpg"
+        },
+        {
+            "ID": 22,
+            "Nombre": "Crema facial",
+            "Tipo": "Crema",
+            "Precio": 120,
+            "Marca": "marca3",
+            "Dirfoto": "../Imagenes/crema2.jpg"
+        },
+        {
+            "ID": 23,
+            "Nombre": "Crema clasica",
+            "Tipo": "Crema",
+            "Precio": 20,
+            "Marca": "marca3",
+            "Dirfoto": "../Imagenes/crema3.jpg"
+        },
+        {
+            "ID": 24,
+            "Nombre": "Crema corporal",
+            "Tipo": "Crema",
+            "Precio": 25,
+            "Marca": "marca3",
+            "Dirfoto": "../Imagenes/crema4.jpg"
+        },
+        {
+            "ID": 25,
+            "Nombre": "Crema hidratante",
+            "Tipo": "Crema",
+            "Precio": 100,
+            "Marca": "marca3",
+            "Dirfoto": "../Imagenes/crema5.jpg"
+        }
+    
+    ]
+}
